@@ -6,7 +6,7 @@
 xv6상 hello, world! 띄우는 user program 만들기
 
 ### [과제 2](https://github.com/kitsune03k/23_ssusw_OS/tree/main/%EA%B3%BC%EC%A0%9C2)
-새로운 forknexec system call 만들기
+xv6에 새로운 forknexec system call 만들기
 
 ### [과제 3](https://github.com/kitsune03k/23_ssusw_OS/tree/main/%EA%B3%BC%EC%A0%9C3)
 xv6의 순정 RR방식 스케쥴러를 Priority Queue방식으로 만들기
