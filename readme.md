@@ -1,7 +1,6 @@
 # 23_ssusw_OS
-
 23학년도 2학기 숭실대 소프트웨어 학부 운영체제 과제
-#
+
 ### [과제 1](https://github.com/kitsune03k/23_ssusw_OS/tree/main/%EA%B3%BC%EC%A0%9C1)
 xv6상 hello, world! 띄우는 user program 만들기
 
