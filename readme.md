@@ -13,5 +13,4 @@ xv6의 순정 RR방식 스케쥴러를 Priority Queue방식으로 바꾸기
 
 ### [과제 4](https://github.com/kitsune03k/23_ssusw_OS/tree/main/%EA%B3%BC%EC%A0%9C4)
 xv6에 없는 Copy-on-Write 구현하기
-#
-**각 과제별 폴더의 readme.md 참고**
+
