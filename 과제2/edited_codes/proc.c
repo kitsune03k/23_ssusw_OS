@@ -587,13 +587,7 @@ int forknexec(const char *path, const char **argv) {
      이게 중요했다. 새로 페이지에 올려준 np에 child가 exec 되야하므로
      exec 준비 과정을 np에다 해줘야 한다!!!
      **************************************************************/
-/*
-    char* unconst_path;
-    char** unconst_argv;
-
-    unconst_path = path;
-    unconst_argv = argv;
-*/
+    
     begin_op();
 
     // ip = inode*
