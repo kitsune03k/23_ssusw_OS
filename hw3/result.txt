@@ -1,0 +1,61 @@
+qemu-system-i386 -serial mon:stdio -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp 8 -m 512 
+xv6...
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ tt
+child 4 created with priority(1)!
+child 5 created with priority(2)!
+child 6 created with priority(3)!
+child 7 created with priority(4)!
+child 8 created with priority(5)!
+child 9 created with priority(6)!
+child 10 created with priority(7)!
+child 11 created with priority(8)!
+child 12 created with priority(9)!
+child 13 created with priority(10)!
+child 5 priority changed from 2 to 1 in 704 ticks
+child 6 priority changed from 3 to 2 in 841 ticks
+child 7 priority changed from 4 to 3 in 967 ticks
+child 8 priority changed from 5 to 4 in 1039 ticks
+child 9 priority changed from 6 to 5 in 1248 ticks
+child 10 priority changed from 7 to 6 in 1579 ticks
+child 6 priority changed from 2 to 1 in 755 ticks
+child 7 priority changed from 3 to 2 in 859 ticks
+child 8 priority changed from 4 to 3 in 997 ticks
+child 11 priority changed from 8 to 7 in 2131 ticks
+child 9 priority changed from 5 to 4 in 1164 ticks
+child 7 priority changed from 2 to 1 in 824 ticks
+child 8 priority changed from 3 to 2 in 944 ticks
+child 10 priority changed from 6 to 5 in 1423 ticks
+child 12 priority changed from 9 to 8 in 3397 ticks
+child 9 priority changed from 4 to 3 in 1126 ticks
+child 8 priority changed from 2 to 1 in 891 ticks
+child 11 priority changed from 7 to 6 in 1888 ticks
+child 10 priority changed from 5 to 4 in 1342 ticks
+child 9 priority changed from 3 to 2 in 1047 ticks
+child 9 priority changed from 2 to 1 in 953 ticks
+child 10 priority changed from 4 to 3 in 1257 ticks
+child 11 priority changed from 6 to 5 in 1676 ticks
+child 12 priority changed from 8 to 7 in 2827 ticks
+child 10 priority changed from 3 to 2 in 1143 ticks
+child 11 priority changed from 5 to 4 in 1505 ticks
+child 13 priority changed from 10 to 9 in 7571 ticks
+child 10 priority changed from 2 to 1 in 1017 ticks
+child 12 priority changed from 7 to 6 in 2259 ticks
+child 11 priority changed from 4 to 3 in 1373 ticks
+child 11 priority changed from 3 to 2 in 1231 ticks
+child 12 priority changed from 6 to 5 in 1903 ticks
+child 11 priority changed from 2 to 1 in 1078 ticks
+child 12 priority changed from 5 to 4 in 1651 ticks
+child 13 priority changed from 9 to 8 in 4769 ticks
+child 12 priority changed from 4 to 3 in 1492 ticks
+child 12 priority changed from 3 to 2 in 1309 ticks
+child 13 priority changed from 8 to 7 in 3422 ticks
+child 12 priority changed from 2 to 1 in 1136 ticks
+child 13 priority changed from 7 to 6 in 2590 ticks
+child 13 priority changed from 6 to 5 in 2100 ticks
+child 13 priority changed from 5 to 4 in 1800 ticks
+child 13 priority changed from 4 to 3 in 1600 ticks
+child 13 priority changed from 3 to 2 in 1400 ticks
+child 13 priority changed from 2 to 1 in 1210 ticks
